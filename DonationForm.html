@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donation form</title>
+</head>
+<body>
+    <h1>Online donation form</h1>
+    <form> 
+    <h3><span style="color: red;">*</span>1. Name</h3>
+    <label for="userfirstname">First Name</label><br>
+    <input type="text" name="userfirstname" id="userfirstname"><br>
+
+    <label for="userlastname">Last Name</label><br>
+    <input type="text" name="userlastname" id="userlastname">
+
+    <h3><span style="color: red;">*</span>2. Enter PAN ID/Tax ID</h3>
+    <label for="userpassword">Pan ID/Tax ID</label><br>
+   <input type="password" name="userpassword" id="userpassword"><br>
+
+   <h3><span style="color: red;">*</span>3. Address</h3>
+   <label for="useraddress1">Address Line 1</label><br>
+   <input type="address" name="useraddress1" id="useraddress1"><br>
+
+   <label for="useraddress2">Address Line 2</label><br>
+   <input type="address" name="useraddress2" id="useraddress2"><br>
+
+   <label for="usercity">City</label><br>
+   <input type="text" name="usercity" id="usercity"><br>
+
+   <label for="userstate">State/Province</label><br>
+   <input type="state" name="userstate" id="userstate"><br>
+   
+   <label for="userzip">Zip/Postal Code</label><br>
+   <input type="text" name="userzip" id="userzip"><br>
+
+   <label for="usercountry">Country</label><br>
+   <input type="select" name="usercountry" id="usercountry"><br>
+   <select name="country" id="country">
+    <option value="Germany"></option>
+    <option value="Spain"></option>
+    <option value="Cheh Republic"></option>
+   </select> <br>
+
+   <h3><span style="color: red;">*</span>4. Phone</h3>
+   <label for="userphone">Phone</label><br>
+   <input type="tel" name="userphone" id="userphone"><br>
+
+   <h3><span style="color: red;">*</span>5. E-mail</h3>
+   <label for="usermail"><E-mail>E-mail</label><br>
+   <input type="email" name="usermail" id="usermail"><br>
+
+   <h3><span style="color: red;">*</span>6. Type of donation:</h3>
+          <input type="checkbox" name="love offering" value="yes" id="love offering">
+          <label for="love offering">Love offering</label><br>
+          
+          <input type="checkbox" name="housing" value="yes" id="housing">
+            <label for="housing">Housing</label><br>
+
+            <input type="checkbox" name="education" value="yes" id="education">
+            <label for="education">Education</label><br>
+
+            <input type="checkbox" name="old age" value="yes" id="old age">
+            <label for="old age">Old age</label><br>
+
+            <input type="checkbox" name="children welfare" value="yes" id="children welfare">
+            <label for="children welfare">Children welfare</label><br>
+
+            <input type="checkbox" name="building expansion" value="yes" id="building expansion">
+            <label for="building expansion">Building Expansion</label><br>
+
+            <input type="checkbox" name="food" value="yes" id="food">
+            <label for="food">Food</label><br>
+            
+            <h3><span style="color: red;">*</span>7. Mode of payment:</h3>
+            <input type="radio" name="payment" value="paypal" id="paypal">
+                <label for="paypal">PayPal</label><br>
+
+                <input type="radio" name="payment" value="Bank transfer" id="bank transfer">
+                    <label for="bank transfer">Bank transfer</label><br>
+
+                    <input type="radio" name="payment" value="cheque" id="cheque">
+                        <label for="cheque">Cheque</label><br>
+
+                       <p><button type="submit">Send</button></p>
+                     </form>
+    </body>
+</html>
